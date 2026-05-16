@@ -1,124 +1,139 @@
 <!--
-  README.md for Repository -Template
+  README.md template for collection repositories.
   R26.5
   260505_code
-  260419_documentation
+  260505_documentation
 -->
+
+<!-- [PROJECT WARNING] =========================================================
+* Project warning
+---------------------------------------------------------------------------- -->
+
+> [!WARNING]  
+> This is a warning everyone should see, or remove this section entirely.
+
+<!--
+This divider separates the this section from the rest of the README. If you are
+not using the this section, comment this divider out.
+--->
+---
+
+<!-- ===================================================== [PROJECT WARNING] -->
+
+<!-- [PROJECT INTRO] ===========================================================
+* Project logo
+  There are references for both a "light" and "dark" images. The dark image
+  should have a background of HEX #0d1117, to match the dark mode of GitHub.
+  The light image is the fallback.
+* Project title
+  Optional, depending on whether the project title is already clear from logo.
+* Project catchphrase!
+  Optional, if having a catchphrase fits the project.
+* Project badges
+---------------------------------------------------------------------------- -->
 
 <div align="center">
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/repository/logo/repository-logo-dark.jpg">
     <source media="(prefers-color-scheme: light)" srcset=".github/repository/logo/repository-logo-light.jpg">
-    <img alt="Repository Template logo" src=".github/repository/logo/repository-logo-light.jpg">
+    <img alt="Fallback image description" src=".github/repository/logo/repository-logo-light.jpg">
   </picture>
 
-  <br>
+  <h1>Collection README.md template</h1>
 
-  ![RELEASE](https://img.shields.io/badge/Release-26.5-teal)&nbsp;&nbsp;
-  ![LICENSE](https://img.shields.io/badge/license-Apache%202.0-blue)
+  ![RELEASE](https://img.shields.io/badge/Release-XX.xx-teal)&nbsp;&nbsp;
 
-# Repository Template
+  <h3>Catchrphrase goes here!</h3>
 
 </div>
 
-This repository is a reusable starting point for GitHub repositories. It collects a root README, alternate README
-templates, standard supporting documentation, and GitHub metadata so a new repository can start with a consistent 
-structure instead of an empty scaffold.
+---
 
-## Contents
+<!-- ======================================================= [PROJECT INTRO] -->
 
-- [What this repository includes](#what-this-repository-includes)
-- [Using the template](#using-the-template)
-- [Repository layout](#repository-layout)
-- [Supporting documentation](#supporting-documentation)
+<!-- [PROJECT DETAIL] ==========================================================
+* Project screenshot
+  There are references for both a "light" and "dark" images. The dark image
+  should have a background of HEX #0d1117, to match the dark mode of GitHub.
+  The light image is the fallback.
+---------------------------------------------------------------------------- -->
 
-## What this repository includes
+<div align="center">
 
-- A root README for the template repository itself.
-- [README-REPO.md](README-REPO.md) as an alternate root README for this template repository.
-- [Collection-README.md](Collection-README.md) for collection-style repositories.
-- [SourceCode-README.md](SourceCode-README.md) for software or source-code repositories.
-- A [docs](docs) folder containing common repository documents including the changelog, roadmap, development
-  notes, testing, support, security guidance, FAQ, and troubleshooting guidance.
-- A [src](src) folder for source code organization.
-- A [.github](.github) folder for repository assets, workspace data, and repository-specific metadata.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/repository/readme/screenshot01-dark.jpg">
+    <source media="(prefers-color-scheme: light)" srcset=".github/repository/readme/screenshot01-light.jpg">
+    <img alt="Fallback image description" src=".github/repository/readme/screenshot01-light.jpg">
+  </picture>
+  <h6>The Screenshot</h6>
 
-## Using the template
+</div>
 
-1. Create a new repository from this template, or copy the parts you want into an existing repository.
-2. Decide which README variant best matches the new repository:
-   - Use [Collection-README.md](Collection-README.md) for repositories that primarily collect links, notes, or
-     documentation.
-   - Use [SourceCode-README.md](SourceCode-README.md) for repositories that contain buildable software or other
-     source code.
-3. Copy the selected README template into the target repository as `README.md` and replace the placeholder text,
-   badges, links, screenshots, and release details.
-4. Review the files in [docs](docs) and remove any documents the new repository does not need.
-5. Update the repository assets under [.github/repository](.github/repository), especially the logo and README
-   screenshots, so the new repository branding matches the project.
-6. Add the `.do-not-commit/` folder to `.github/`
-7. Clean up any template-only content before publishing.
+<!--
+This divider separates the this section from the rest of the README. If you are
+not using the this section, comment this divider out.
+--->
+---
 
-## Repository layout
+<!-- [HORIZONTAL MENU] =========================================================
+* Horizontal menu (top)
+  Contains components that aren't in/don't belong in the table of contents.
+---------------------------------------------------------------------------- -->
 
-Your repository should look like this:
+<h6 align="center">
 
-```text
-.
-|-- .github/
-|   |-- archive/
-|   |-- copilot/
-|   |-- development/
-|   |   |-- old-src/
-|   |   |-- scratch/
-|   |   |-- working/
-|   |-- repository/
-|   |   |-- logo/
-|   |   |-- readme/
-|   |-- third-party/
-|   |-- workspace/
-|   |-- copilot-instructions.md
-|   
-|-- docs/
-|   |-- api/
-|   |-- man/
-|   |-- CHANGELOG.md
-|   |-- CODEOWNERS
-|   |-- CONTRIBUTORS.md
-|   |-- DEVELOPMENT.md
-|   |-- FAQ.md
-|   |-- KNOWN-ISSUES.md
-|   |-- NOTICES.md
-|   |-- ROADMAP.md
-|   |-- SECURITY.md
-|   |-- SUPPORT.md
-|   |-- TESTING.md
-|   |-- TROUBLESHOOTING.md
-|
-|-- src/
-|-- .gitignore
-|-- Collection-README.md
-|-- LICENSE
-|-- README.md
-|-- SourceCode-README.md
-```
+  [WEBSITE](URL)&nbsp;&bull;&nbsp;[DEMO](URL)&nbsp;&bull;&nbsp;[MANUAL](docs/man/README.md)&nbsp;&bull;&nbsp;[CHANGELOG](docs/CHANGELOG.md)&nbsp;&bull;&nbsp;[ROADMAP](docs/ROADMAP.md)&nbsp;&bull;&nbsp;[KNOWN ISSUES](docs/KNOWN-ISSUES.md)
+  
+</h6>
 
-## Supporting documentation
+<!--
+This divider separates the this section from the rest of the README. If you are
+not using the this section, comment this divider out.
+--->
+---
 
-The [docs](docs) folder contains the following standard documents:
+<!-- ===================================================== [HORIZONTAL MENU] -->
 
-| File | Purpose |
-|------|---------|
-| [CHANGELOG.md](docs/CHANGELOG.md) | History of notable changes across releases. |
-| [CODEOWNERS](docs/CODEOWNERS) | GitHub code ownership assignments. |
-| [CONTRIBUTORS.md](docs/CONTRIBUTORS.md) | Acknowledgment of project contributors. |
-| [DEVELOPMENT.md](docs/DEVELOPMENT.md) | Developer setup, workflow, and contribution guidance. |
-| [FAQ.md](docs/FAQ.md) | Answers to frequently asked questions. |
-| [KNOWN-ISSUES.md](docs/KNOWN-ISSUES.md) | Documented known issues and workarounds. |
-| [NOTICES.md](docs/NOTICES.md) | Legal notices and third-party attributions. |
-| [ROADMAP.md](docs/ROADMAP.md) | Planned work and future direction. |
-| [SECURITY.md](docs/SECURITY.md) | Security policy and vulnerability reporting guidance. |
-| [SUPPORT.md](docs/SUPPORT.md) | How to get help and file issues. |
-| [TESTING.md](docs/TESTING.md) | Testing strategy and instructions. |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common problems and resolution steps. |
+<!-- [TABLE OF CONTENTS] =======================================================
+* The Table of Contents
+  The Table of Contents contains components that aren't in/don't belong in the
+  horizontal menu.
+---------------------------------------------------------------------------- -->
+
+### CONTENTS
+
+  [Topic #1](#topic-1)<br>
+  [Topic #2](#topic-2)<br>
+  [Topic #3](#topic-3)<br>
+
+<!--
+This divider separates the this section from the rest of the README. If you are
+not using the this section, comment this divider out.
+--->
+---
+
+<!-- =================================================== [TABLE OF CONTENTS] -->
+
+<!-- [PROJECT MESSAGE] =========================================================
+* Project message
+  Use for time-sensitive notices, deprecation warnings, or anything critical
+  that every visitor should see. Remove this section if not needed.
+============================================================================ -->
+
+> [!IMPORTANT]
+> Replace this with a message everyone should see, or remove this section entirely.
+
+<!--
+This divider separates the this section from the rest of the README. If you are
+not using the this section, comment this divider out.
+--->
+---
+
+<!-- ===================================================== [PROJECT MESSAGE] -->
+
+## Topic #1
+
+## Topic #3
+
+## Topic #3
