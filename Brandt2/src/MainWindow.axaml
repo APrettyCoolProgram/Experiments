@@ -1,0 +1,51 @@
+<!--
+    260515_code
+    260515_documentation
+-->
+
+<Window
+    x:Class="Brandt.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Brandt"
+    Width="800"
+    Height="600">
+
+    <DockPanel LastChildFill="True">
+
+        <!-- Top menu bar: File, Settings, About -->
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem
+                    Click="OnNewClicked"
+                    Header="New" />
+                <MenuItem
+                    Click="OnOpenClicked"
+                    Header="Open" />
+                <MenuItem
+                    Click="OnSaveClicked"
+                    Header="Save" />
+                <Separator />
+                <MenuItem
+                    Click="OnExitClicked"
+                    Header="Exit" />
+            </MenuItem>
+            <MenuItem
+                Click="OnSettingsClicked"
+                Header="Settings" />
+            <MenuItem
+                Click="OnAboutClicked"
+                Header="About" />
+        </Menu>
+
+        <!-- Main editing surface -->
+        <TextBox x:Name="MainEditSurface"
+            AcceptsReturn="True"
+            AcceptsTab="True"
+            FontFamily="Consolas, Menlo, monospace"
+            FontSize="14"
+            TextWrapping="Wrap" />
+
+    </DockPanel>
+
+</Window>
